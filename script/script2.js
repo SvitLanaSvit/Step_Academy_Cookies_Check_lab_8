@@ -69,6 +69,8 @@ genderid.value = obj.gender;
 phoneid.value = obj.phone;
 skypeid.value = obj.skype;
 
+textHello.innerText = `Hello, ${obj.emailN} `;
+
 if(nameid.value == 'undefined'){
     nameid.value = "";
 }

@@ -47,7 +47,6 @@ document.getElementById("emailId").value =  cookiesObject.emailN;
 document.getElementById("passwordId").value = cookiesObject.pass;
 document.getElementById("repeatId").value = cookiesObject.passRepeat;
 
-
 if(document.getElementById("emailId").value == 'undefined'){
     document.getElementById("emailId").value = "";
 }
