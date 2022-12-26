@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainDiv{
+    max-width: 500px;
+    background-color: beige;
+    padding: 30px;
+    margin: 20px auto;
+}
+
+.container{
+    display: flex;
+}
+
+#errorEmailId, #errorRepeatId{
+    width: 200px;
+    margin-left: 40px;
+}
+
+.txt{
+    width: 200px;
+    font-weight: bolder;
+}
+
+.email, .password, .repeat, .buttonSignIn{
+    display: flex;
+    flex-direction: column;
+}
+
+#errorEmailId, #errorRepeatId{
+    text-align: right;
+    color: red;
+    font-weight: bolder;
+}
+
+.email, .password, .repeat{
+    margin: 20px 0;
+}
+
+h3{
+    text-align: center;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <div class="mainDiv">
+        <h3>Registration</h3>
+        <form method="GET" onsubmit="return false" id="checkForm">
+            <div class="email">
+                <div class="container">
+                    <label class="txt">Email:</label>
+                    <p id="errorEmailId"></p>
+                </div>
+                <input type="email" name="emailN" id="emailId" required>
+            </div>
+            <div class="password">
+                <label class="txt">Password:</label>
+                <input type="password" name="pass" id="passwordId" required>
+            </div>
+            <div class="repeat">
+                <div class="container"> 
+                    <label class="txt">Repeat:</label>
+                    <p id="errorRepeatId"></p>
+                </div>
+                <input type="password" name="passRepeat" id="repeatId" required>
+            </div>
+            <div class="buttonSignIn">
+                <input type="button" value="Sign in" id="signInId" onclick="checkForm()">
+            </div>
+        </form>
+    </div>
+    <script src="script/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainDiv{
+    max-width: 600px;
+    background-color: beige;
+    padding: 30px;
+    margin: 20px auto;
+}
+
+.navigator{
+    display: flex;
+    justify-content: right;
+    font-weight: bolder;
+}
+
+h3{
+    text-align: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+.mainContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+#mainForm{
+    display: flex;
+    flex-direction: column;
+}
+
+#nameId, #yearId, #phoneId, #surnameId, #genderId, #skypeId{
+    width: 260px;
+    padding-left: 20px;
+}
+
+hr{
+    margin: 10px 0;
+}
